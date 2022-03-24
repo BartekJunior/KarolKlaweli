@@ -716,25 +716,24 @@ section {
 }
 
 
-#merge-paralax {
+
+/* Facts Section
+--------------------------------*/
+#facts {
+  padding: 80px 0;
   background: linear-gradient(rgba(255, 170, 104, 0.8), rgba(255, 0, 0, 0.1)), url(../img/facts-bg.jpg) fixed center center;
   background-size: cover;
 }
-
-/* Call To Action Section
---------------------------------*/
-#call-to-action {
-  padding: 60px 0;
-}
-#call-to-action h3 {
+#facts h3 {
   color: #fff;
   font-size: 28px;
   font-weight: 700;
+  margin-bottom: 40px;
 }
-#call-to-action p {
+#facts p {
   color: #fff;
 }
-#call-to-action .cta-btn {
+#facts .cta-btn {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -744,26 +743,17 @@ section {
   padding: 8px 28px;
   border-radius: 25px;
   transition: 0.5s;
-  margin-top: 10px;
+  margin: 10px 0 100px 0;
   border: 2px solid #fff;
   color: #fff;
 }
-#call-to-action .cta-btn:hover {
+#facts .cta-btn:hover {
   background: #F76E11;
   border: 2px solid #F76E11;
 }
 
 
-/* Facts Section
---------------------------------*/
-#facts {
-  padding: 60px 0 0 0;
-  position: relative;
-}
-#facts .container {
-  position: relative;
-  z-index: 10;
-}
+/* Facts Numbers */
 #facts .counters span {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -779,10 +769,8 @@ section {
   font-size: 14px;
   color: #fff;
 }
-#facts .facts-img {
-  text-align: center;
-  padding-top: 30px;
-}
+
+
 
 /* Portfolio Section
 --------------------------------*/
