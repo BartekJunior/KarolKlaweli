@@ -774,6 +774,14 @@ section {
 
 /* Portfolio Section
 --------------------------------*/
+
+/* Bootstrap repair */
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+/* Bootstrap repair */
+
 #portfolio {
   padding: 60px 0;
 }
@@ -1188,7 +1196,6 @@ section {
 
 
 /* # Footer */
-
 #footer {
   background: #000;
   color: #eee;
