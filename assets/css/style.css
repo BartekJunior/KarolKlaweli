@@ -842,6 +842,8 @@ section {
 
 #portfolio .portfolio-item figure .link-preview {
   position: absolute;
+  right: 0;
+  top: calc(10%);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -869,9 +871,14 @@ section {
 /* LINK PREVIEW */
 
 #portfolio .portfolio-item figure .link-preview {
-  left: calc(50% - 38px);
-  top: calc(50% - 18px);
+
 }
+
+
+
+
+
+
 
 #portfolio .portfolio-item figure:hover .link-preview {
   opacity: 1;
